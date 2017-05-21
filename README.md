@@ -1,8 +1,8 @@
 # Fucking how to get Facebook login in react native right
-You are almost doing the right thing if you have reached the login screen. But if you are seeing some ‘invalid hash key’ bull shit when you login for the second time, This is what you going to do.
+You are almost did everything right if you have reached the login screen. But if you are seeing some ‘invalid hash key’ bullshit when you loggin in for the second time, This is what you need to do.
 
 Go to your jdk folder,
-If you know where it is, good, if not, execute this
+If you know where it is, go there, if not, execute this
 `/usr/libexec/java_home`
 
 Result might look something like this,
