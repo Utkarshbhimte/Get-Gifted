@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GetGifted</string>
+    <string name="fb_app_id">164219730778964</string>
+    <string name="fb_login_protocol_scheme">fb164219730778964</string>
 </resources>
