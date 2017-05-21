@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { StyleSheet,Text,View } from 'react-native';
+import React, {Component} from "react";
+import {Text, View} from "react-native";
 var Icon = require('react-native-vector-icons/FontAwesome');
 
 /**
@@ -20,20 +20,22 @@ class FBLoginView extends Component {
         super(props);
     }
 
-    render(){
+    render() {
         return (
             <View style={[]}>
                 <Icon.Button onPress={() => {
-                    if(!this.context.isLoggedIn){
+                    if (!this.context.isLoggedIn) {
                         this.context.login()
-                    }else{
+                    } else {
                         this.context.logout()
                     }
-
                 }}
                              color={"#000000"}
-                             backgroundColor={"#ffffff"} name={"facebook"}  size={20} borderRadius={100} >
+                             backgroundColor={"#ffffff"} name={"facebook"}>
 
+                    <Text>
+                        Login via Facebook
+                    </Text>
                 </Icon.Button>
             </View>
         )
